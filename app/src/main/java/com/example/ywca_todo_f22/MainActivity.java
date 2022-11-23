@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-        //create alert
+        // create alert
     void showTheAlert(ToDo td) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setMessage("Did you finish" + td.task + " ?");
